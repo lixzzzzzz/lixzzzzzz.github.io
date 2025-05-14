@@ -1,8 +1,13 @@
 # Basic Information 
 title: Xiaozhi Li
 position: Ph.D. Student
-affiliation: Perception, Interaction, Embodiment Lab, Beijing Institute of Technology;
-affiliation: Radar Technology Research Institute, School of Information and Electronics, Beijing Institute of Technology
+affiliations:
+  - name: Perception, Interaction, Embodiment Lab, Beijing Institute of Technology
+    link: http://pie-lab.cn/
+  - name: Radar Technology Research Institute, School of Information and Electronics, Beijing Institute of Technology
+    link: https://radar.bit.edu.cn/index.htm
+# affiliation: Perception, Interaction, Embodiment Lab, Beijing Institute of Technology;
+# affiliation: Radar Technology Research Institute, School of Information and Electronics, Beijing Institute of Technology
 email: lixz@bit.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -18,7 +23,7 @@ canonical: https://github.com/lixzzzzzz
 github_link: https://github.com/lixzzzzzz
 # linkedin: https://www.linkedin.com/
 # twitter: https://twitter.com/
-affiliation_link: http://pie-lab.cn/
+# affiliation_link: http://pie-lab.cn/
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
