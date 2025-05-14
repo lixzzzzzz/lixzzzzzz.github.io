@@ -49,9 +49,10 @@
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
         {% endif %}
-        {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
+        {% if site.affiliations %}
+          {% for aff in site.affiliations %}
+            <a href="{{ aff.link }}" rel="noopener"><autocolor>{{ aff.name }}</autocolor></a><br>
+          {% endfor %}
         {% endif %}
         {% if site.email %}
         <email>{{ site.email }}</email>
