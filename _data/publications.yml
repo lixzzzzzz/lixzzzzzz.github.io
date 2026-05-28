@@ -1,22 +1,27 @@
 main:
 
   # ===========================================================
-  #  在这里填写你自己的论文。复制下面的整段模板即可新增一篇。
+  #  论文列表。新增一篇时复制下面整段模板即可。
   #  字段说明：
   #    title            论文标题
-  #    authors          作者列表，用 <strong>...</strong> 把你的名字加粗
-  #    conference_short 左上角徽标里的简称，如 CVPR / ICCV
-  #    conference       完整会议/期刊名称（斜体显示）
-  #    pdf / code / page / bibtex  对应按钮的链接（不需要的整行删掉）
+  #    authors          作者列表，用 <strong>...</strong> 把自己的名字加粗
+  #    conference_short 左上角徽标里的简称（期刊可用缩写）
+  #    conference       完整期刊/会议名称（斜体显示）
+  #    pdf / code / page / bibtex  对应按钮链接（不需要的整行删掉）
   #    image            论文配图（放在 assets/img/ 下）
   #    notes            红色标注，如 Oral / Highlight（可删）
   # ===========================================================
 
-  - title: "Your Paper Title Here: A 4D Radar Multi-Modal Perception Framework"
-    authors: <strong>Xiaozhi Li</strong>, Co-Author A, Co-Author B, Wei Liang
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2025.
-    pdf: "#"
-    code: "#"
-    image: ./assets/img/teaser_example.png
-    notes: Example — replace with your own
+  - title: "SFGFusion: Surface Fitting Guided 3D Object Detection with 4D Radar and Camera Fusion"
+    authors: <strong>Xiaozhi Li</strong>, Huijun Di, Jian Li, Feng Liu, Wei Liang
+    conference_short: PR
+    conference: Pattern Recognition <strong>(PR)</strong>, May 2026.
+    pdf: https://arxiv.org/abs/2510.19215
+    image: ./assets/img/sfgfusion.png
+
+  - title: "M³Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3-D Object Detection With Camera and 4-D Imaging Radar"
+    authors: <strong>Xiaozhi Li</strong>, Huijun Di, Jian Li, Feng Liu, Wei Liang
+    conference_short: TITS
+    conference: IEEE Transactions on Intelligent Transportation Systems <strong>(T-ITS)</strong>, May 2026.
+    pdf: https://arxiv.org/abs/2510.27166
+    image: ./assets/img/m3detection.png

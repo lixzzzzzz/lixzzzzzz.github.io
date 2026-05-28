@@ -19,6 +19,7 @@
   --shadow-md: 0 4px 12px rgba(20, 30, 60, 0.06),
                0 12px 36px rgba(20, 30, 60, 0.08);
   --maxw: 1080px;
+  --sidebar-w: 330px;
 }
 
 /* ---------- Base ---------- */
@@ -54,7 +55,7 @@ body::before {
   margin: 0 auto;
   padding: 64px 32px 80px;
   display: grid;
-  grid-template-columns: 290px 1fr;
+  grid-template-columns: var(--sidebar-w) 1fr;
   gap: 56px;
   align-items: start;
   float: none;
@@ -72,7 +73,7 @@ header {
   background: var(--c-surface);
   border: 1px solid var(--c-line);
   border-radius: 20px;
-  padding: 32px 26px 30px;
+  padding: 32px 18px 30px;
   box-shadow: var(--shadow-sm);
   animation: fadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
@@ -129,11 +130,14 @@ header a:hover { color: var(--c-accent); }
 
 header autocolor,
 header a autocolor {
-  font-size: 0.86rem;
-  line-height: 1.5;
+  font-size: 0.82rem;
+  line-height: 1.55;
   color: var(--c-text-soft);
   display: inline-block;
-  margin: 2px 0;
+  text-align: center;
+  width: 290px;
+  max-width: 100%;
+  margin: 6px 0;
 }
 header a:hover autocolor { color: var(--c-accent); }
 

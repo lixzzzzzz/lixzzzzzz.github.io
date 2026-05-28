@@ -2,9 +2,9 @@
 title: Xiaozhi Li
 position: Ph.D. Student
 affiliations:
-  - name: Perception, Interaction, Embodiment Lab, Beijing Institute of Technology
+  - name: Perception, Interaction, Embodiment Lab, <br>Beijing Institute of Technology
     link: http://pie-lab.cn/
-  - name: Radar Technology Research Institute, School of Information and Electronics, Beijing Institute of Technology
+  - name: Radar Technology Research Institute, <br>School of Information and Electronics, <br>Beijing Institute of Technology
     link: https://radar.bit.edu.cn/index.htm
 email: lixz@bit.edu.cn
 
@@ -17,7 +17,8 @@ canonical: https://github.com/lixzzzzzz
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
 # google_scholar: https://scholar.google.com/
-cv_link: assets/files/curriculum_vitae.pdf
+# cv_link: assets/files/curriculum_vitae.pdf
+orcid: https://orcid.org/0000-0001-6699-3891
 github_link: https://github.com/lixzzzzzz
 # linkedin: https://www.linkedin.com/
 # twitter: https://twitter.com/
