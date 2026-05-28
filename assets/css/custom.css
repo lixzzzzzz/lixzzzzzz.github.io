@@ -297,6 +297,7 @@ section > h2:first-child + p {
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 4px;
+  text-wrap: balance;
 }
 .pub-row .title a { color: var(--c-text); border: none; }
 .pub-row .title a:hover { color: var(--c-accent); }
