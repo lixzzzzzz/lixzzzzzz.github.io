@@ -19,7 +19,7 @@ main:
     pdf: https://arxiv.org/abs/2510.19215
     image: ./assets/img/sfgfusion.png
 
-  - title: "M³Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3-D Object Detection With Camera and 4-D Imaging&nbsp;Radar"
+  - title: "M³Detection: Multi-Frame Multi-Level Feature Fusion for Multi-Modal 3-D Object Detection With Camera and 4-D Imaging Radar"
     authors: <strong>Xiaozhi Li</strong>, Huijun Di, Jian Li, Feng Liu, Wei Liang
     conference_short: TITS
     conference: IEEE Transactions on Intelligent Transportation Systems <strong>(T-ITS)</strong>, May 2026.
